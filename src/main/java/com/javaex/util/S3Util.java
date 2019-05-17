@@ -22,8 +22,6 @@ import com.amazonaws.services.s3.model.PutObjectRequest;
 @Component
 public class S3Util {
 
-	private String accessKey = "AKIA6NVIFZBCKXTFZUS7"; // 엑세스 키
-	private String secretKey = "MabGCXDMVG0RhC2TZ8/s19rM4a0GHtVCdy8anv7z"; // 보안 엑세스 키
 
 	private AmazonS3 s3;
 
